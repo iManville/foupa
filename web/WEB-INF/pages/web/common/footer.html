@@ -1,0 +1,50 @@
+<footer id="footer-wrapper">
+         <div id="footer" class="container">
+                 <div class="row">
+
+                         <div class="span6">
+                                 <section class="widget">
+                                         <h3 class="title">友情链接</h3>
+                                         <div class="tagcloud">
+                                         	<#list friendlyLink as fl>
+                                                 <a href="${fl.url!}" target="_blank" class="btn btn-success" >${fl.name!}</a>
+                                         	</#list>
+                                        </div>
+                                 </section>
+                         </div>
+
+                 </div>
+         </div>
+         <!-- end of #footer -->
+
+         <!-- Footer Bottom -->
+         <div id="footer-bottom-wrapper">
+                 <div id="footer-bottom" class="container">
+                         <div class="row">
+                                 <div class="span6">
+                                         <p class="copyright">
+                                                 ${systemConfig['WEBCOPYRIGHT']!}<a href="http://www.miitbeian.gov.cn/" target="_blank" style="color: #6c9683;">${systemConfig['ICP']!}</a>
+                                         </p>
+                                 </div>
+                                 <!--  
+                                 <div class="span6">
+                                         <ul class="social-nav clearfix">
+                                                 <li class="skype"><a target="_blank" href="skype:live:foupa?call"></a></li>
+                                                 <li class="twitter"><a target="_blank" href="https://twitter.com/foupa"></a></li>
+                                                 <li class="facebook"><a target="_blank" href="https://www.facebook.com/foupa"></a></li>
+                                                 
+                                                 <li class="google"><a target="_blank" href="#"></a></li>
+                                                 <li class="linkedin"><a target="_blank" href="#"></a></li>
+                                                 <li class="stumble"><a target="_blank" href="#"></a></li>
+                                                 <li class="deviantart"><a target="_blank" href="#"></a></li>
+                                                 <li class="flickr"><a target="_blank" href="#"></a></li>
+                                                 <li class="rss"><a target="_blank" href="#"></a></li>
+                                                 
+                                         </ul>
+                                 </div>
+                                 -->
+                         </div>
+                 </div>
+         </div>
+         <!-- End of Footer Bottom -->
+ </footer>
